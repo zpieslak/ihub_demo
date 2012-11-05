@@ -6,3 +6,7 @@ Gems used:
 - Twitter boostrap
 - Simple form
 - Rspec for tests
+
+Heroku application:
+
+http://stormy-badlands-5690.herokuapp.com/

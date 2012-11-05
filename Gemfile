@@ -22,7 +22,6 @@ group :development do
   gem 'rspec-rails'
   gem 'annotate'
   gem 'quiet_assets'
-  gem 'thin'
 end
 
 group :test do
@@ -35,6 +34,7 @@ end
 gem 'jquery-rails'
 
 gem 'pg'
+gem 'thin'
 gem 'devise', '~> 2.1'
 gem 'cancan'
 gem 'simple_form'
