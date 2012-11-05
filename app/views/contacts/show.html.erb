@@ -1,0 +1,8 @@
+<div class="well">
+  <p>Name: <%= @contact.name %></p>
+  <p>Email: <%= @contact.email %></p>
+  <p>Phone: <%= @contact.phone %></p>
+</div>
+
+<%= link_to 'Edit', edit_contact_path(@contact), :class => "btn btn-warning" %> |
+<%= link_to 'Back', :back, :class => "btn btn-info" %>

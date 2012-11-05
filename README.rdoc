@@ -1,0 +1,8 @@
+Ihub Demo Application
+
+Gems used:
+- Devise
+- CanCan
+- Twitter boostrap
+- Simple form
+- Rspec for tests

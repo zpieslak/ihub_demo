@@ -1,0 +1,9 @@
+<div class="page-header">
+  <h1>Listing contacts</h1>
+</div>
+
+<%= render :partial => 'contacts', :locals => { :contacts => @contacts }  %>
+
+<br />
+
+<%= link_to 'New Contact', new_contact_path %>

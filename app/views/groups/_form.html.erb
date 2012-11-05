@@ -1,0 +1,4 @@
+<%= simple_form_for(@group, :html => {:class => 'form-vertical' }) do |f| %>
+  <%= f.input :name, :autofocus => true %>
+  <%= f.button :submit, "Save", :class => 'btn-primary' %>
+<% end %>

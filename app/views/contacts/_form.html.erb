@@ -1,0 +1,7 @@
+<%= simple_form_for(@contact, :html => {:class => 'form-vertical' }) do |f| %>
+  <%= f.input :name, :autofocus => true %>
+  <%= f.input :phone %>
+  <%= f.input :email %>
+  <%= f.association :group, :collection => current_user.groups %>
+  <%= f.button :submit, "Save", :class => 'btn-primary' %>
+<% end %>
