@@ -15,7 +15,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails'
 end
 
 group :development do
@@ -38,6 +37,7 @@ gem 'thin'
 gem 'devise', '~> 2.1'
 gem 'cancan'
 gem 'simple_form'
+gem 'twitter-bootstrap-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
